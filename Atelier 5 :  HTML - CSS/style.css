@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* border: 2px solid blue; */
+    background-color: rgb(76, 29, 246);
+    padding: 10px;
+    margin-bottom: 15vh;
+    /* margin: 20px; */
+}
+header h1{
+    color: #fff;
+}
+nav{
+    margin: 0 auto;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+}
+nav,li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    /* padding: 10px; */
+}
+li a:hover{
+    color: blue;
+    background-color: red;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#Accueil{
+    display: block;
+    padding: 10px;
+    margin-top: 15vh;
+    /* margin: 40px; */
+}
+#Accueil img{
+    width: 60%;
+    margin-left:45vh ;
+}
+#Accueil h1{
+    text-align: center;
+}
+/* nos services */
+#Services{
+    margin: 25px;
+    padding: 20px;
+}
+#Services h2{
+    text-align: center;
+    background-color: rgb(76, 29, 246);
+    color: #fff;
+    padding: 10px;
+}
+#Services p{
+    font-size: 24px;
+    padding: 10px;
+}
+#Services div{
+    display:flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content:center;
+}
+#Services article{
+    border: 2px solid #fff;
+    background-color: mintcream;
+    border-radius: 10%;
+    margin: 15px;
+    padding: 10px;
+    width: 50vh;
+     box-shadow: 0 5px 0 5px rgb(76, 29, 246);
+}
+#Services article:hover{
+    transform: scale(1.2);
+}
+#Services img{
+    display: block;
+     margin-left: 60px;
+     margin-right: 40px;
+     width: 50%;
+}
+/* contacts */
+#contacts{
+     margin: 25px;
+    padding: 25px;
+}
+#contacts h2{
+    text-align: center;
+    background-color: rgb(76, 29, 246);
+    color: #fff;
+    margin-bottom: 5%;
+    padding: 10px;
+}
+#contacts form{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+
+}
+#contacts input{
+    padding: 10px;
+    margin: 15px;
+}
+#contacts textarea{
+    padding: 10px;
+    margin: 15px;
+    height: 15Vh;
+}
+#contacts input[type="submit"]{
+    padding: 10px;
+    margin: 0 auto;
+    width: 30%;
+    color: #fff;
+    background-color: blue;
+}
+footer{
+    background-color: grey;
+    padding: 20px;
+    height: 45vh;
+}
+footer ul{
+    list-style-type: none;
+    display: flex;
+    padding-top: 10%;
+    margin: 20px;
+    justify-content: center;
+}
+footer ul li{
+    padding: 10px;
+    margin-bottom: 8%;
+}
+footer p{
+    text-align: center;
+    color: #f0f0f0;
+    text-transform: uppercase;
+    background-color: rgb(42, 41, 41);
+    padding: 15px;
+}
